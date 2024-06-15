@@ -1,12 +1,22 @@
 import datagenerators
 
-
-datagenerators.generate_file_from_types(desc= {
+desc= {
     "fistname": "names",
     "middlename": "names",
     "salary": "numbers"
     
-}, num_rows=300, file_name="file2.csv")
+}
+
+
+num_rows=3000
+
+
+
+file_name="nam.csv"
+
+
+
+datagenerators.generate_file_from_types(desc, num_rows, file_name)
 
 
 
